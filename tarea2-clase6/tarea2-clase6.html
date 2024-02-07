@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarea2.clase6.css">
+    <title>Tarea clase 6</title>
+</head>
+<body>
+
+    <h2>Calculadora salario familiar</h2>
+
+    <form>
+        <label for="cantidad-trabajadores">Ingresar cantidad de trabajadores en la familia</label>
+        <input type="number" id="cantidad-trabajadores"/>
+        <button type="submit" id="boton-agregar">Agregar</button>
+        <button type="reset" class="oculto" id="boton-limpiar-trabajadores">Limpiar todo</button>
+       
+    </form>
+
+    <br>
+    <div id="formulario-trabajadores"></div>
+    <br>
+    <button class="oculto" id="boton-calcular">Calcular</button>
+    <button class="oculto" id="boton-quitar">Quitar ultimo</button>
+   
+    
+    <div id="resultados" class="oculto">
+        <p>El salario promedio anual es: $ <strong id="salario-anual-promedio"></strong> </p>
+        <p>El salario promedio mensual es: $ <strong id="salario-mensual-promedio"></strong> </p>
+        <p>El mayor salario anual es: $ <strong id="salario-mayor"></strong> </p> 
+        <p>El menor salario anual es: $ <strong id="salario-menor"></strong> </p>
+    </div>
+
+    <script type="text/javascript" src="tarea2-clase6.js"></script>
+</body>
+</html>
