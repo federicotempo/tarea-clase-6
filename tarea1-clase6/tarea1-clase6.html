@@ -10,7 +10,7 @@
 
     <h2>Calculadora grupo familiar</h2>
 
-    <form>
+    <form id="integrantes">
         <label for="cantidad-integrantes">Ingresar cantidad de integrantes</label>
         <input type="number" id="cantidad-integrantes"/>
         <button type="submit" id="boton-cantidad">Enviar</button>
@@ -21,6 +21,10 @@
     <br>
     <div id="formulario-edad"></div>
     <br>
+
+    <ul id="errores"> 
+    </ul>
+    
     <button class="oculto" id="boton-calcular">Calcular</button>
     
     <div id="resultados" class="oculto">
@@ -30,5 +34,6 @@
     </div>
 
     <script type="text/javascript" src="tarea1-clase6.js"></script>
+    <script type="text/javascript" src="clase6-pruebas.js"></script>
 </body>
 </html>

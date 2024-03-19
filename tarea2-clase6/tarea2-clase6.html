@@ -10,7 +10,7 @@
 
     <h2>Calculadora salario familiar</h2>
 
-    <form>
+    <form id="trabajadores">
         <label for="cantidad-trabajadores">Ingresar cantidad de trabajadores en la familia</label>
         <input type="number" id="cantidad-trabajadores"/>
         <button type="submit" id="boton-agregar">Agregar</button>
@@ -21,6 +21,10 @@
     <br>
     <div id="formulario-trabajadores"></div>
     <br>
+
+    <ul id="errores"> 
+    </ul>
+
     <button class="oculto" id="boton-calcular">Calcular</button>
     <button class="oculto" id="boton-quitar">Quitar ultimo</button>
    
@@ -33,5 +37,6 @@
     </div>
 
     <script type="text/javascript" src="tarea2-clase6.js"></script>
+    <script type="text/javascript" src="pruebas.js"></script>
 </body>
 </html>
